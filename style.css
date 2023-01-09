@@ -32,6 +32,9 @@ nav{
   position: sticky;
   top: 0;
   max-width: 90%;
+  background-color: rgb(54, 69, 79, .1);
+  border-radius: 5px;
+  padding-left: 15px;
 }
 
 nav ul li{
@@ -47,6 +50,12 @@ nav ul li a{
   color: white;
 }
 
-#bio-logo{
-  color: white;
+.bio-logo{
+  height: 30px;
+  width: 30px;
 }
+
+.bio-logo path{
+  fill: white;
+}
+
