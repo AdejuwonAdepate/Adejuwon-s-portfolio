@@ -1,9 +1,22 @@
+@font-face {
+  font-family: 'ubuntu-bold';
+  src: url(../assets/fonts/Ubuntu-Bold.ttf);
+  src: url(../assets/fonts/Ubuntu-Medium.ttf);
+  src: url(../assets/fonts/Ubuntu-Regular.ttf);
+}
+
+*{
+  font-family: ubuntu-bold;
+  border: 0;
+  padding: 0;
+}
+
 body{
   
 }
 
 .main-page{
-  
+
 }
 
 #background-video{
